@@ -1,0 +1,133 @@
+/* ------------------------------------ FILTERBAR ------------------------------------------------------------------- */
+.filter_div {
+  width: 100;
+  background-color: #fff;
+}
+.filterbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+.city_name {
+  width: 30%;
+}
+.city_name p {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-weight: bold;
+}
+.filterbar_buttons {
+  cursor: pointer;
+  text-align: center;
+}
+.filterbar_buttons h5 {
+  border: 1px solid #485253;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  border-radius: 1rem;
+  font-size: 12px;
+}
+/* ------------------------------------------------- LISTING CARD -------------------------------------- */
+.listing_card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: 0.6rem;
+}
+.listing_card div {
+  border: 0.1px solid #e7e7e7;
+}
+.div1 {
+  width: 30%;
+  height: auto;
+}
+.div1 img {
+  height: 100%;
+  width: 100%;
+}
+.div2 {
+  width: 70%;
+  height: auto;
+}
+.div2 h5 {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+.div2 h6 {
+  margin-left: 0.5rem;
+}
+.div2 i {
+  float: right;
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+  border-radius: 50%;
+  margin: 0.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: -1rem;
+  margin-bottom: 0.4rem;
+  margin-right: 0.4rem;
+}
+.div3 {
+  width: 33.3%;
+  text-align: center;
+}
+.div3 i {
+  margin-left: 0.3rem;
+}
+.div3 h6 {
+  font-weight: bold;
+}
+.div4 {
+  width: 33.3%;
+  text-align: center;
+}
+.div4 h6 {
+  font-weight: bold;
+}
+.div5 {
+  width: 33.3%;
+  text-align: center;
+}
+.div3 p, .div4 p, .div5 p {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+.div5 h6 {
+  font-weight: bold;
+}
+.div6 {
+  width: 100%;
+}
+.div6 button {
+  width: 94%;
+  margin: 3%;
+  color: #fff;
+  background: linear-gradient(to right, #ff7831 0, #f83618 100%);
+  border: none;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+@media only screen and (max-width: 770px) {
+  .city_name {
+    width: 60%;
+ }
+  .city_name p {
+    font-size: 18px;
+ }
+}
+@media only screen and (max-width: 426px) {
+  .filterbar_buttons {
+    width: 45%;
+ }
+}
+@media only screen and (min-width: 780px) {
+  .filter_div {
+    display: none;
+ }
+}

@@ -1,0 +1,329 @@
+.footer {
+  background-color: #242a2a;
+  padding: 50px 0 0;
+  position: relative;
+  z-index: 1;
+}
+.footer .col-sm-3.col-xs-12,
+.footer-cities .col-sm-3.col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.footer .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.footer .social-icon-block .social-icon {
+  text-decoration: none;
+  font-size: 24px;
+  color: #bbb;
+  transition: 0.25s ease-in-out all;
+  -webkit-transition: 0.25s ease-in-out all;
+  -moz-transition: 0.25s ease-in-out all;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.footer-links.contact-col .rb-contact {
+  display: block;
+  line-height: 28px;
+}
+.contact-col .rb-contact {
+  cursor: text;
+}
+.footer .footer-links a {
+  color: inherit;
+  line-height: 24px;
+  display: block;
+}
+.footer .footer-links {
+  color: #bbb;
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+.footer .footer-links .link-heading {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  letter-spacing: 2px;
+}
+.footer-cities.seo-links ul li a {
+  color: #bbb;
+}
+.seo-links li a {
+  color: #bbb;
+}
+.app-download-btn.google {
+  font-family: "Google Sans", proxima_nova_regular, arial, sans-serif;
+  font-weight: 400;
+}
+.app-download-btn div.lbl {
+  font-size: 12px;
+}
+.app-download-btn div.value {
+  font-size: 18px;
+}
+.app-download-btn .iconfooter {
+  float: left;
+  margin-right: 20px;
+  position: absolute;
+  left: 17px;
+  top: 50%;
+  margin-top: -15px;
+}
+.app-download-btn {
+  border: 2px #bbb solid;
+  padding: 11px 14px;
+  width: 180px;
+  position: relative;
+  padding-left: 60px;
+  font-size: 24px;
+  transition: 0.25s ease-in-out all;
+  -webkit-transition: 0.25s ease-in-out all;
+  -moz-transition: 0.25s ease-in-out all;
+}
+.footer .app-download-block .footer-app {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 24px;
+}
+a {
+  cursor: pointer;
+}
+a {
+  background-color: transparent;
+}
+@media only screen and (max-width: 767px) {
+  .footer-cities.seo-links ul {
+    max-height: unset;
+    width: 100%;
+    padding-right: 0;
+  }
+}
+section.tagline {
+  height: 60 px;
+  line-height: 60px;
+  text-align: center;
+}
+.bg-home-h1 {
+  background-color: #303738;
+  color: #bbb;
+}
+section.tagline .text {
+  font-family: proxima_nova_regular, arial, sans-serif;
+  color: #bbb;
+  margin: 0;
+  display: inline;
+  font-size: 14px;
+}
+@media only screen and (max-width: 767px) {
+  .footer-cities.seo-links ul li {
+    display: block;
+    width: 50%;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+}
+.footer-cities li {
+  line-height: 1.5;
+  float: left;
+  width: 25%;
+}
+.footer-cities.seo-links {
+  overflow: hidden;
+}
+.footer-cities.seo-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.footer-cities li span {
+  font-size: inherit;
+  line-height: 24px;
+  display: inline;
+  font-family: proxima_nova_regular, arial, sans-serif;
+  font-weight: 16px;
+  font-weight: 400;
+  color: #bbb;
+}
+/* Copyright page */
+.copyright {
+  background-color: #242a2a;
+  color: #bbb;
+  font-size: 12px;
+  padding: 50px 0 15px;
+  position: relative;
+  z-index: 1;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+@media only screen and (max-width: 767px) {
+  .copyright [class*="pull"] {
+    float: none !important;
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .footer-cities {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  footer {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 998px) {
+  [class^="col-"] {
+    padding-left: 7.5px !important;
+    padding-right: 7.5px !important;
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .copyright {
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .copyright {
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .copyright .pull-left,
+  .copyright .pull-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* seo-links */
+.container .seoLinks {
+  display: inline-block !important;
+  top: 7px;
+  width: 50%;
+  position: relative;
+}
+.container .seoLinks .topProjects {
+  width: 50%;
+  display: inline-block !important;
+  overflow: hidden;
+}
+.container {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.container .seoLinks ul {
+  padding: initial;
+  height: 133px;
+  width: calc(100% + 40px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+.container .seoLinks ul li {
+  list-style-type: none;
+  width: fit-content;
+}
+.container .seoLinks ul li a {
+  color: #bbb;
+}
+.container .seoLinks ul li h2,
+.container .seoLinks ul li span {
+  display: inline-block;
+  margin-bottom: 10 px;
+  line-height: 1.1;
+  color: #bbb;
+  font-size: 14px;
+  font-family: proxima_nova_regular, arial, sans-serif;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+.container .seoLinks .topLocalities {
+  width: 49%;
+  display: inline-block !important;
+  position: absolute;
+  overflow: hidden;
+}
+.footer-cities2.seo-links {
+  width: 50%;
+  float: right;
+}
+.footer-cities2.seo-links {
+  overflow: hidden;
+}
+.footer-cities2.seo-links ul {
+  padding: 0;
+  height: 133px;
+  width: calc(100% + 40px);
+}
+.footer-cities2.seo-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.footer-cities2.seo-links li {
+  width: 49%;
+  padding-bottom: 3.5px;
+}
+.footer-cities2 li {
+  line-height: 1.5;
+  float: left;
+  width: 25%;
+}
+@media only screen and (max-width: 766px) {
+  .container .seoLinks {
+    width: 100%;
+    position: relative;
+  }
+  .container .seoLinks .topProjects {
+    width: 100% !important;
+    border-bottom: 1px solid #5a5a5a;
+  }
+  .footer .container .seoLinks ul {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 0;
+    margin-top: 3px;
+  }
+  .container .seoLinks ul li h2,
+  .footer .container .seoLinks ul li span {
+    font-size: 13px !important;
+  }
+  .container .seoLinks .topLocalities {
+    width: 100%;
+    border-bottom: 1px solid #5a5a5a;
+    position: relative;
+  }
+  .footer-cities2.seo-links {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .footer-cities2.seo-links ul {
+    height: auto;
+    width: inherit;
+  }
+  .footer-cities2.seo-links ul li {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-cities2.seo-links ul li {
+    display: block;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+}

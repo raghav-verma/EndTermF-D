@@ -1,0 +1,21 @@
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.fa-bell:before {
+  content: "\f0f3"
+}
+
+.fa-bell-o:before {
+  content: "\f0a2"
+}
+
+.__react_component_tooltip.show{
+  background: #fff !important;
+}

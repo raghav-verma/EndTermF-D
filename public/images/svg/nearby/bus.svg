@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="179px" height="223px" viewBox="0 0 179 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,16.0048749 C0,7.16562657 7.16179276,0 15.9974769,0 L68.0025231,0 C76.8376856,0 84,7.16634628 84,16.0048749 L84,80.918202 C84,89.7574504 76.8345895,96.9230769 68.0026608,96.9230769 L25.8461538,96.9230769 L16.0017627,96.9230769 C7.16423319,96.9230769 0,89.7567306 0,80.918202 L0,16.0048749 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="84" height="96.9230769" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="10.5" y="11.3076923" width="63" height="34.7307692" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="63" height="34.7307692" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="All-Payments" transform="translate(-181.000000, -366.000000)">
+            <g id="Group-3" transform="translate(181.000000, 366.000000)">
+                <path d="M63.6826792,178.481839 C27.1618066,167.061873 0.6,132.316992 0.6,91.2272727 C0.6,40.8438412 40.5362003,0 89.8,0 C139.0638,0 179,40.8438412 179,91.2272727 C179,132.316992 152.438193,167.061873 115.917321,178.481839 L89.8,223 L63.6826792,178.481839 Z" id="Combined-Shape" fill="#393939"></path>
+                <g id="busStop" transform="translate(47.000000, 37.000000)" stroke="#FFFFFF">
+                    <use id="Rectangle-33" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                    <use id="Rectangle-33" mask="url(#mask-4)" stroke-width="8" xlink:href="#path-3"></use>
+                    <ellipse id="Oval-13" stroke-width="4" cx="18.9807692" cy="69.0576923" rx="6.86538462" ry="6.86538462"></ellipse>
+                    <ellipse id="Oval-13" stroke-width="4" cx="65.0192308" cy="69.0576923" rx="6.86538462" ry="6.86538462"></ellipse>
+                    <path d="M35.1346154,69 L48.8653846,69" id="Line" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M15.3461538,92.7115385 L15.3461538,104.255249 C15.3461538,105.909205 16.2731051,108.208893 17.5922223,109.213138 C17.5922223,109.213138 17.5257503,109.972811 20.1285425,110.076923 C22.7313347,110.181035 23.1128947,109.133237 23.1128947,109.133237 C24.399394,108.093154 25.4423077,105.908316 25.4423077,104.255249 L25.4423077,92.7115385" id="Path-9" stroke-width="4"></path>
+                    <path d="M59.7692308,93.1153846 L59.7692308,104.659096 C59.7692308,106.313051 60.6961821,108.612739 62.0152992,109.616984 C62.0152992,109.616984 61.9488272,110.376658 64.5516194,110.480769 C67.1544116,110.584881 67.5359717,109.537083 67.5359717,109.537083 C68.8224709,108.497 69.8653846,106.312162 69.8653846,104.659096 L69.8653846,93.1153846" id="Path-9" stroke-width="4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
